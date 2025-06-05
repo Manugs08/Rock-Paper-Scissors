@@ -1,0 +1,13 @@
+
+body{
+    margin:0
+}
+h1{
+    text-align: center;
+    background-color: #48e;
+    font-size: 30px;
+    font-style: italic;
+    color:#fff;
+    width:100%;
+    margin: auto;
+}
