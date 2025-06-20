@@ -1,13 +1,84 @@
-
 body{
-    margin:0
+    margin: 0;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px
+}
+header{
+    background-color: #48e;
+    width: 100%;
+    padding: 3px;
+    max-height: 100px;
+    box-sizing: border-box;
 }
 h1{
     text-align: center;
-    background-color: #48e;
-    font-size: 30px;
-    font-style: italic;
     color:#fff;
-    width:100%;
-    margin: auto;
+    font-size: 2rem;
+    font-style: italic;
+}
+#container{
+    width: 300px;
+    height: 200px;
+    background-color: #48e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+#jugar{
+    width: 300px;
+    font-size: 2rem;
+    color:#48e
+}
+.container-scores{
+    align-self: start;
+    display:flex;
+    justify-content: space-around;
+    width: 300px;
+}
+#jugador,#computadora{
+    width: 100px;
+    height: 60px;
+    color:#48e;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+
+}
+button{
+    height: 100px;
+    width: 100px;
+    border:1px solid #fff;
+}
+button:hover{
+    background-color: #fff;
+}
+i{
+    font-size: 2rem;
+    color:#48e;
+    
+}
+#rsta{
+    text-align: center;
+    color:#fff;
+    font-size: 1.5rem;
+}
+.button-container{
+    display: flex;
+}
+#score-player,#score-computer{
+    color:#48e;
+    font-size: 35px;
+    position: absolute;
+    top:-15px;
+    left: 40px;
+
 }

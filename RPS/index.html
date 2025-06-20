@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Rock-Paper-Scissor</title>
+    <script src="https://kit.fontawesome.com/2e03f4623f.js" crossorigin="anonymous"></script>
+    <title>Piedra Papel o Tijera</title>
 </head>
 <body>
+    <header>
+        <h1>Juego de piedra papel o tijera</h1>
+    </header>
+    <main>
+        <button id="jugar">Play</button>
+        <div id="container">
+            <div class="container-scores">
+            <div id="jugador">
+                <p id="score-player"></p>
+            </div>
+            <div id="computadora">
+                <p id="score-computer"></p>
+            </div>
+            </div>
+            <div class="button-container">
+            <button id="piedra"> <i class="fa-regular fa-hand-back-fist"></i></button>
+            <button id="papel"> <i class="fa-regular fa-hand"></i></button>
+            <button id="tijera"><i class="fa-regular fa-hand-scissors"></i></button>
+            </div>
+        </div>
+    </main>
+    <p id="rsta"></p>
+
     <script src="script.js"></script>
-    <h1>Juego de Piedra, Papel o Tijera</h1>
 </body>
 </html>
